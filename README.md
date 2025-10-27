@@ -58,7 +58,7 @@ turbo build --filter=docs
 npx turbo build --filter=docs
 yarn exec turbo build --filter=docs
 pnpm exec turbo build --filter=docs
-```
+
 
 ### Develop
 
@@ -74,7 +74,7 @@ turbo dev
 npx turbo dev
 yarn exec turbo dev
 pnpm exec turbo dev
-```
+
 
 You can develop a specific package by using a [filter](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters):
 
@@ -113,7 +113,7 @@ This will authenticate the Turborepo CLI with your [Vercel account](https://verc
 
 Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
 
-```
+
 # With [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation) installed (recommended)
 turbo link
 
